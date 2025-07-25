@@ -9,6 +9,9 @@ flush privileges;
 select user, host from user;
 exit;
 
+#Database 제거
+drop Database.name
+
 mysql -u python -p
 show grants for current_user;
 use python_db;
